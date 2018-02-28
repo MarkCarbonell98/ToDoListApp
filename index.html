@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Your To Do List!</title>
+	<link rel="stylesheet" href="styles.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<h1 class="jumbotron">This is your Daily to-do List!</h1>
+			<div class="container">
+				<button id="heading-name" class="btn btn-secondary">What is your daily list about?</button>
+				<input class="form-control" type="text" placeholder="Change Your List's Title!" id="first-form">
+				<div class="filter">
+					<input type="checkbox" name="checkbox2" id="checkbox2">
+					<span class="badge badge-default">Filter finished tasks</span>
+				</div>
+			</div>
+		<ol id="list">
+			<div class="list-item" id="0">
+				<div class="item-title">
+					<li>Read 40 pages </li>
+					<input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
+				</div>
+				<div class="buttons">
+					<button class="btn btn-success">Up</button>
+					<button class="btn btn-warning">Down</button>
+					<button class="btn btn-danger" id="remove-button">Remove Item</button>
+					<button class="btn btn-info" id="last-button">Edit</button>
+				</div>
+			</div>
+		</ol>
+			<div class="container">
+				<button id="appendListItem" class="btn btn-primary">Add to your to-do list!</button>
+				<input class="form-control" type="text" placeholder="Add a New Item!" id="second-form">
+			</div>
+	</div>
+<script type="text/javascript" src="app2.js"></script>
+<script
+  src="http://code.jquery.com/jquery-3.3.1.slim.js"
+  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  crossorigin="anonymous"></script>
+</body>
+</html>

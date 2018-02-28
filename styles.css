@@ -1,0 +1,116 @@
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.jumbotron {
+	text-align: center;
+}
+
+#list {
+	padding: none;
+	margin: 2rem auto;
+	list-style-type: none;
+	
+}
+
+
+#headingName {
+	margin-right: 10px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 4rem auto;
+}
+
+#appendListItem {
+	margin-right: 1rem;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 1rem;
+
+}
+
+.buttons button {
+	height: 5rem;
+	width: 8rem;
+	margin-right: 1rem;
+	font-weight: bold;
+}
+
+#last-button {
+	margin-right: none;
+}
+
+.btn-success {
+	margin-left: 1rem;
+}
+
+ol li {
+	font: bold 20px Arial, sans-serif;
+	margin-right: 2rem;
+}
+
+.item-title {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#checkbox {
+	width: 2rem;
+	height: 2rem;
+}
+
+.list-item {
+	border: solid 5px #f44242;
+	width: 500px;
+	margin: auto;
+	padding: 12px 15px;
+	margin-bottom: 2rem;
+	border-radius: 10px;
+	text-align: center;
+
+}
+
+#first-form, 
+#second-form {
+	display: inline;
+	width: 20rem;
+}
+
+#remove-button {
+	width: 12rem;
+}
+
+#first-form {
+	margin-left: 10px;
+}
+
+.filter {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+}
+
+#checkbox2 {
+	width: 2rem;
+	height: 2rem;
+	margin-left: 7rem;
+}
+
+.badge {
+	margin: 0 2rem;
+	height: 100%;
+}
+
+
+
+
